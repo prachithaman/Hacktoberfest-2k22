@@ -1,5 +1,4 @@
 # ATM MINI PROJECT by Sarthak
-
 import numpy as np
 import time
 
