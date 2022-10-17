@@ -1,0 +1,95 @@
+body 
+    {margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    background-color: lightgray;}
+
+.main 
+    {height: auto;
+    width: auto;}
+
+.intro
+    {height: auto;
+    width: 1000px;
+    text-align: center;
+    margin: auto;}
+
+.intro h1
+    {font-size: 35px;
+    text-decoration: underline;
+    color: rgb(47, 54, 61);}
+
+.intro p
+    {font-size: 25px;}
+
+.slider
+    {width: 1200px;
+    height: 500px;
+    animation: slide 8s infinite;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;}
+
+@keyframes slide
+{ 33% {background-image: url(images/img1.jpg); background-size: 100% 100%;}
+  66% {background-image: url(images/img2.jpg); background-size: 100% 100%;}
+  100% {background-image: url(images/img3.jpg); background-size: 100% 100%;} }
+
+.caption 
+    {width: 300px;
+    height: 150px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.caption p 
+    {font-size: 20px;
+    text-align: center;}
+
+.row 
+    {width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.cont
+    {width: 370px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;}
+    
+.text
+    {width: 370px;
+    height: 370px;
+  }
+
+.text h1
+    {font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgb(47, 54, 61);}
+
+.text p
+    {font-size: 20px;}
+
+.circle
+    {width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.circle h1
+    {font-family: 'Courier New', Courier, monospace;}
+    
+
+    
