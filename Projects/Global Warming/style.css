@@ -1,0 +1,32 @@
+#cover img {height: 350px; width: 1333px;}
+.main {width: 1000px; height: 550px; margin-left: auto; margin-right: auto;}
+.cont {width: 300px; height: 550px; float: left; padding-left: 30px;}
+.name {width: 300px; height: 50px;}
+.desc {width: 300px; height: 200px;}
+h1 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 40px; 
+    text-align: center; text-decoration: underline;}
+p {font-size: 25px; text-align: justify;} 
+h2 {font-size: 30px; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h3 {font-size: 25px; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.desc p {font-size: 20px; text-align: justify;}
+
+
+#img1{width: 300px; height: 300px; background-image: url("https://www.conserve-energy-future.com/wp-content/uploads/2013/03/deforestation-logging-cut-forests.jpg");
+    background-size: 100% 100%;}
+#img1:hover {background-image: url("https://images.theconversation.com/files/429718/original/file-20211102-17-165fa0g.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"); 
+    background-size: 100% 100%;}
+
+#img2 {width: 300px; height: 300px; background-image: url("https://i.guim.co.uk/img/media/83e59bfd9c433ac5d5b0a6edfc2ed21eb77dc3a9/0_216_6646_3988/master/6646.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ea593eee05e13381818f7a230cef420e"); background-size: 100% 100%;}
+#img2:hover {background-image: url("https://igutek.scripts.mit.edu/terrascope/smoke%20stacks.jpg"); background-size: 100% 100%;}
+
+#img3 {width: 300px; height: 300px; background-image: url("https://i.cbc.ca/1.5351954.1573159139!/fileImage/httpImage/car-exhaust.jpg"); background-size: 100% 100%;}
+#img3:hover {background-image: url("https://image.sciencenorway.no/1454734.jpg?imageId=1454734&panow=0&panoh=0&panox=0&panoy=0&heightw=0&heighth=0&heightx=0&heighty=0&width=1200&height=1200"); background-size: 100% 100%;}
+
+#img4 {width: 300px; height: 300px; background-image: url("http://thepointofnoreturn.org/img/temperature-rising-thermometer.jpg"); background-size: 100% 100%;}
+#img4:hover {background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Glacier_Antarctica_Wim_van_Passel_WW1111292/story_carousel/72q0jtvbhk_Glacier_in_Antarctica_Wim_van_Passel_WW1111292.jpg"); background-size: 100% 100%;}
+
+#img5 {width: 300px; height: 300px; background-image: url("https://blog.davey.com/media/3121465/impact-of-trees-on-climate-change.png?w=396&h=320&mode=crop&scale=both"); background-size: 100% 100%;}
+#img5:hover {background-image: url("https://www.newframe.com/wp-content/uploads/2019/11/11Nov_Water_WIRES-480x480.jpg"); background-size: 100% 100%;}
+
+#img6 {width: 300px; height: 300px; background-image: url("http://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/NpWonQiMfx_20190303141545222.jpg"); background-size: 100% 100%;}
+#img6:hover {background-image: url("https://miro.medium.com/max/960/0*NAkh_XWKH96tGq7w."); background-size: 100% 100%;}
