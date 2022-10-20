@@ -1,0 +1,18 @@
+"use strict";
+const BinarySearchTree = require('./BinarySearchTree.js');
+const Node = require('./Node.js');
+
+function findMin(rootNode)
+{
+  if(rootNode == null)
+    return null;
+  else if(rootNode.leftChild == null)
+      return rootNode.val
+  else
+    return findMin(rootNode.leftChild)
+}  
+var BST = new BinarySearchTree(6)
+BST.insertBST(20)
+BST.insertBST(-1)
+
+console.log(findMin(BST.root))
